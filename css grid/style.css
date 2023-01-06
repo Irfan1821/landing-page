@@ -1,0 +1,32 @@
+/* #grid {
+  background: pink;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 200px;
+}
+
+#grid div {
+  background: red;
+  width: 90px;
+  height: 90px;
+}
+
+#grid div:nth-child(2n) {
+  background: red;
+}
+
+#grid div:nth-child(2n + 1) {
+  background: yellow;
+} */
+
+#grid {
+  display: grid;
+}
+
+header {
+  background: red;
+}
+
+main {
+  background: yellow;
+}

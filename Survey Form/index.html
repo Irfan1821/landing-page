@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+      consequuntur ut sapiente debitis, commodi ipsa eaque temporibus earum quos
+      tempora sint inventore, ducimus eligendi quo, quibusdam facere molestiae!
+      Repellat, ipsa?
+    </p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name here"
+        required
+      />
+      <br />
+      <label for="email" id="email-label">Email</label>
+      <input type="email" required placeholder="Enter email id" id="email" />
+      <br />
+      <label for="number" id="number-label">Number</label>
+      <input type="number" id="number" min="1" max="10" placeholder="0-10" />
+      <select id="dropdown">
+        <option value="value-1">Value 1</option>
+        <option value="value-1">Value 1</option>
+        <option value="value-1">Value 1</option>
+      </select>
+      <br />
+      <br />
+      <input type="radio" name="gender" value="male" /> Male
+      <input type="radio" name="gender" value="female" /> Female
+      <input type="radio" name="gender" value="Rather not say" /> Rather not say
+
+      <br />
+      <p>Your age</p>
+
+      <input type="checkbox" value=">30" name="age" /> Greater than 30
+      <input type="checkbox" value="<30" name="age" /> Less than 30
+      <input type="checkbox" value="=30" name="age" /> equal to 30
+      <br />
+      <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+      <br />
+      <br />
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>

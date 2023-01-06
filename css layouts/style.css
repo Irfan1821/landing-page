@@ -1,0 +1,18 @@
+body {
+  background: pink;
+}
+
+.newlayouts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.newlayouts div {
+  background: red;
+  flex-shrink: 0;
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  margin: 5px;
+}

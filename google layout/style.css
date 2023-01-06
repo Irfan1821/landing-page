@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 200vh;
+}
+
+nav,
+footer {
+  flex-shrink: 0;
+}
+
+section span {
+  position: fixed;
+  background: blue;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+section {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 2px;
+}
+
+#logo {
+  width: 80vw;
+  height: 200px;
+  background: red;
+}
+
+.layer {
+  width: 100%;
+  background: grey;
+  padding: 10px 5px;
+  border-bottom: 2px solid rgb(87, 85, 85);
+}
